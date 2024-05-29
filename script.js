@@ -10,7 +10,7 @@ function show(){
 show();
 
 const updateStorage = () => {
-    localStorage.setItem("notes", []);
+    localStorage.setItem("notes", notesContainer.innerHTML);
 }
 
 
